@@ -10,7 +10,7 @@ request('https://news.ycombinator.com', function (error, response, html) {
       var a = $(element);
       console.log(i+1 + " " + a.text());
 
-      console.log ("extra message - testing git");
+      console.log ("extra message - testing git and again");
 
     });
   }
