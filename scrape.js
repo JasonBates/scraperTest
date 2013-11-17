@@ -9,6 +9,9 @@ request('https://news.ycombinator.com', function (error, response, html) {
     $('td.title a').each(function(i, element){
       var a = $(element);
       console.log(i+1 + " " + a.text());
+
+      console.log ("extra message - testing git");
+
     });
   }
 });
